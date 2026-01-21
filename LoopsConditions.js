@@ -11,6 +11,7 @@ else
     console.log("Condition Not Satisfied")//Condition Not Satisfied
 }
 
+
 // While loop will run unless the condition becomes false
 let a=0
 while(a<10){
