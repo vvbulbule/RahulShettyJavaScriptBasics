@@ -17,7 +17,18 @@ console.log(marks2[2])//75
 console.log(marks2)// [ 70, 80, 75, 100, 110, 120 ]
 // To get the total Number of elements in Array
 console.log(marks2.length)//6
-// To add one more element to array at the end using push
+// To add one more element to array at the end of array using push
 marks2.push(130)
 console.log(marks2)// [70,  80,  75, 100, 110, 120, 130 ]
+// To add one more element to array at the start of array using unshift
+marks2.unshift(60)
+console.log(marks2)// [60, 70,  80,  75, 100, 110, 120, 130 ]
+//To delete one element from array at the end using pop
+marks2.pop()
+console.log(marks2)//[60, 70,  80,  75, 100, 110, 120]
+
+// Provide the value then using we can get the inxed number of that provided Value in Array
+console.log(marks2.indexOf(100))// 5th element i.e. index starts from 0 so it will Print 4
+
+
 
