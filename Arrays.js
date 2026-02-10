@@ -31,5 +31,13 @@ console.log(marks2)//[60, 70,  80,  75, 100, 110, 120]
 console.log(marks2.indexOf(100))// 5th element i.e. index starts from 0 so it will Print 4
 
 
+// To check the element is present in the Array or not 
+// if the element is present it will return True otherwise false
+console.log(marks2.includes(100))//True
+
+//Creating Sub Array from Main Array
+let MainArray =[50,60,70,80,90,100]
+SubArray = MainArray.slice(2,5)// here 2 start index & 5 is end Index  we have to give one number extra in end index
+console.log(SubArray)//[70,80.90]
 
 
