@@ -32,3 +32,4 @@ console.log(marks2.indexOf(100))// 5th element i.e. index starts from 0 so it wi
 
 
 
+
