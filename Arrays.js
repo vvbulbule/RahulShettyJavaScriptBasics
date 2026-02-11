@@ -41,3 +41,4 @@ SubArray = MainArray.slice(2,5)// here 2 start index & 5 is end Index  we have t
 console.log(SubArray)//[70,80.90]
 
 
+
