@@ -73,3 +73,10 @@ evenScore = score.filter(num => num % 2 === 0)
 console.log(evenScore) // [12, 14 ]
 
 
+//Map will Modify the array value to new value
+//Below Example Convert to GST prices ... Multiple the array Value with 1.18
+let prices = [100, 250, 80, 300];
+let gstPrices = prices.map(price => price * 1.18);
+console.log(gstPrices)//[ 118, 295, 94.39999999999999, 354 ]
+
+
