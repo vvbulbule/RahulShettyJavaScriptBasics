@@ -1,6 +1,8 @@
 //js will take the datatype automatically
 // We can use the single or Double quotes for Strings
 // Srings works as Array only like String is collection of char having index number
+//if in output the color is Yellow then it is number
+// if in output the color is White then it is a String
 let day='Monday '
 
 // To get the total Number of elements in String
@@ -26,6 +28,30 @@ console.log(day.trim())// Now there is no space at the end of the String "Monday
 let date='15'
 let nextDate='20'
 let difference= nextDate- date
-console.log(difference)//5 This is wrong result because JS bydefalt considered as string we need to convert it using parseInt
+console.log(difference)//5 This may give wrong result because JS bydefalt considered as string we need to convert it using parseInt
 difference= parseInt(nextDate) - parseInt(date)
-console.log(difference)//5
+console.log(difference)//5 if in output the color of 5 is Yellow then it is a number
+
+//convert number to string
+console.log(difference.toString())// 5 if in output the color of 5 is White then it is a String
+
+// String concatination uisng + sign
+let newString= day+"Fun day"
+console.log(newString)//Monday Fun day
+
+//To get the location of any sub String
+let location=newString.indexOf('day',5)// Second value is optional uisng second value it searches the location of day dtring from index 5th in string
+console.log(location)//11 i.e at 11 index day is found
+
+// write a program which take string "Monday Fun day" as input 
+// find how many times day sub string occured in string
+let value=newString.indexOf('day')
+let count=0
+// if the day sub string not founf it will return -1
+// while loop will execute until gets false
+while(value!=-1)
+{
+    count++
+    value=newString.indexOf('day',value+1)
+}
+console.log(count)// 2 times 'day' comes in //Monday Fun day
