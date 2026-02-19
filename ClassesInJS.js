@@ -44,3 +44,10 @@ let personDetails= new Person("Vikrant","Bulbule")
 console.log(personDetails.age)//25
 console.log(personDetails.location)//Canada i.e. here we don't have to give () after location because we used the get method for this
 console.log(personDetails.fullname())//Vikrant Bulbule
+
+//Creating Multiple Objects for the same class 
+// Here for each object new instance is created 
+// for each instance vlave for Age i.e Class level variable will be same but for instance variable value will will diffrent as we provided while object creation
+let personDetails2 = new Person("Amit", "Patil");
+console.log(personDetails.fullname())//Vikrant Bulbule
+console.log(personDetails2.fullname())//Amit Patil
