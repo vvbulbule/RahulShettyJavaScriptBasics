@@ -8,11 +8,14 @@ let personDetails = {
 
 // To access the function properties Object using PropertiesName()
 // here () is required with function Name
+
+console.log(personDetails.fullName())//VikrantBulbule
+
 /* Output:
 VikrantBulbule
 undefined (it also print this check the explaination Below in Important Rule comment)
 */
-console.log(personDetails.fullName())//VikrantBulbule
+
 
 /*Important Rule
 
