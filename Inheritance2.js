@@ -8,7 +8,7 @@ class Student2 extends Person {
     
         console.log("Creating student class");//Creating student class
         
-        // call the super class constructor and pass in the name parameter
+        // call the super class constructor  and pass in the name parameter
         super(name);
     }
 
